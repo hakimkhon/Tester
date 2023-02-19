@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         viewBinding.btnHomework1.setOnClickListener {
-            val intent = Intent(this, Homework1::class.java)
+            val intent = Intent(this, HomeWork::class.java)
             startActivity(intent)
         }
     }
