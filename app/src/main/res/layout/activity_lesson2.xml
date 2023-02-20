@@ -15,50 +15,61 @@
         android:padding="4dp"
         android:rowCount="2">
 
+<!--            android:id="@+id/imgTrekker"-->
         <ImageView
             android:src="@drawable/img0_trekker"
-            android:id="@+id/imgTrekker"
             style="@style/styleImg"
             android:tag="0"
             />
 
+<!--            android:id="@+id/imgMalibu"-->
         <ImageView
             android:src="@drawable/img1_malibu"
-            android:id="@+id/imgMalibu"
             style="@style/styleImg"
             android:tag="1"
             />
 
+<!--            android:id="@+id/imgGentra"-->
         <ImageView
             android:src="@drawable/img2_gentra"
-            android:id="@+id/imgGentra"
             style="@style/styleImg"
             android:tag="2"
             />
 
+<!--            android:id="@+id/imgCobalt"-->
         <ImageView
             android:src="@drawable/img3_cobalt"
-            android:id="@+id/imgCobalt"
             style="@style/styleImg"
             android:tag="3"
             />
-    </GridLayout>
 
-    <ImageView
-        android:id="@+id/imgDetail"
-        android:layout_width="match_parent"
-        android:layout_weight="0.8"
-        android:scaleType="centerInside"
-        style="@style/styleImg"
-        />
-    <TextView
-        android:id="@+id/textDetail"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.2"
-        android:textColor="@color/black"
-        android:gravity="center"
-        android:textSize="24sp"
-        />
+<!--            android:id="@+id/imgOnix"-->
+        <ImageView
+            android:src="@drawable/img4_onix"
+            style="@style/styleImg"
+            android:tag="4"
+            />
+
+<!--            android:id="@+id/imgDamas"-->
+        <ImageView
+            android:src="@drawable/img5_damas"
+            style="@style/styleImg"
+            android:tag="5"
+            />
+
+<!--            android:id="@+id/imgMatiz"-->
+        <ImageView
+            android:src="@drawable/img6_matiz"
+            style="@style/styleImg"
+            android:tag="6"
+            />
+
+<!--            android:id="@+id/imgNexia"-->
+        <ImageView
+            android:src="@drawable/img7_nexia"
+            style="@style/styleImg"
+            android:tag="7"
+            />
+    </GridLayout>
 
 </LinearLayout>
