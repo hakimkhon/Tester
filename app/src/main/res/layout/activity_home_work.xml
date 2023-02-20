@@ -16,16 +16,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="4dp"
+            android:padding="10dp"
             android:layout_margin="30dp"
-            android:background="@color/white"
+            android:background="@drawable/circle_header"
             tools:ignore="MissingConstraints">
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:src="@drawable/baseline_person_pin_24"
+                android:layout_height="60sp"
+                android:layout_weight="0.8"
+                android:paddingRight="8dp"
+                android:src="@drawable/person"
                 />
 
             <LinearLayout
@@ -33,19 +34,19 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center_vertical"
-                android:layout_weight="2">
+                android:layout_weight="1.8">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="John’s restaurant"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColor="#4C3F59"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Asian cuisine (39 reviews)"
-                    android:textSize="14dp"
+                    android:textSize="15dp"
                     android:textColor="#4C3F59"/>
             </LinearLayout>
 
@@ -56,6 +57,215 @@
                 android:layout_gravity="center"
                 android:src="@drawable/details" />
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="475dp"
+            android:background="@drawable/circle_footer">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="100dp"
+                android:layout_marginTop="14sp"
+                android:layout_height="8dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/line"
+                />
+
+            <TextView
+                android:id="@+id/textFood"
+                android:layout_below="@id/line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16sp"
+                android:layout_marginBottom="18sp"
+                android:layout_marginLeft="60sp"
+                android:text="Food for thought: Teriyaki Chicken"
+                android:textColor="#4C3F59"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textDisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textFood"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="60sp"
+                android:textSize="16sp"
+                android:text="In publishing and graphic design, lorem ipsum is a placeholder text commonly used."
+                />
+
+            <TextView
+                android:id="@+id/textCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textDisc"
+                android:layout_marginTop="24sp"
+                android:layout_marginBottom="10sp"
+                android:layout_marginLeft="30sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Categories"
+                />
+
+            <HorizontalScrollView
+                android:layout_below="@id/textCategories"
+                android:layout_marginLeft="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginRight="32sp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="6sp"
+                            android:src="@drawable/candy"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="Candy"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginRight="32sp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="10sp"
+                            android:src="@drawable/sushi"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="Sushi"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginRight="32sp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="10sp"
+                            android:src="@drawable/bao"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="Bao"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginRight="32sp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="10sp"
+                            android:src="@drawable/pastry"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="Pastry"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/buy"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="18sp"
+                android:paddingRight="18sp"
+                android:paddingTop="12sp"
+                android:paddingBottom="12sp">
+
+                <TextView
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/number_style"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50sp"
+                    android:layout_marginRight="50sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/items_in_bag"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:src="@drawable/shopping_bag" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
 
     </FrameLayout>
 
