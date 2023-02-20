@@ -12,9 +12,12 @@
         android:theme="@style/Theme.Tester"
         tools:targetApi="31">
         <activity
+            android:name=".Lesson2"
+            android:exported="false" />
+        <activity
             android:name=".HomeWork"
             android:exported="false"
-            android:theme="@style/Theme.HomeWork"/>
+            android:theme="@style/Theme.HomeWork" />
         <activity
             android:name=".Homework1"
             android:exported="false"

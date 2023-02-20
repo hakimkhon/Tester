@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HomeWork::class.java)
             startActivity(intent)
         }
+        viewBinding.btnLesson2.setOnClickListener {
+            val intent = Intent(this, Lesson2::class.java)
+            startActivity(intent)
+        }
     }
 
 }

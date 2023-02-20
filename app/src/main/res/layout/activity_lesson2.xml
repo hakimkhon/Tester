@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lesson2">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:padding="4dp"
+        android:rowCount="2">
+
+        <ImageView
+            android:src="@drawable/img0_trekker"
+            android:id="@+id/imgTrekker"
+            style="@style/styleImg"
+            android:tag="0"
+            />
+
+        <ImageView
+            android:src="@drawable/img1_malibu"
+            android:id="@+id/imgMalibu"
+            style="@style/styleImg"
+            android:tag="1"
+            />
+
+        <ImageView
+            android:src="@drawable/img2_gentra"
+            android:id="@+id/imgGentra"
+            style="@style/styleImg"
+            android:tag="2"
+            />
+
+        <ImageView
+            android:src="@drawable/img3_cobalt"
+            android:id="@+id/imgCobalt"
+            style="@style/styleImg"
+            android:tag="3"
+            />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:scaleType="centerInside"
+        style="@style/styleImg"
+        />
+    <TextView
+        android:id="@+id/textDetail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>

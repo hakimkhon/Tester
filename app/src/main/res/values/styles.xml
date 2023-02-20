@@ -10,4 +10,27 @@
         <item name="android:backgroundTint">#03A9F4</item>
 
     </style>
+
+    <style name="styleImg">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">@drawable/circle_header_border</item>
+        <item name="android:padding">2sp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginEnd">2sp</item>
+        <item name="android:layout_marginBottom">2sp</item>
+
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_rowWeight="1"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:src="@drawable/img_trekker"-->
+<!--        android:background="@drawable/circle_header_border"-->
+<!--        android:padding="2dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:layout_marginEnd="2sp"-->
+
+    </style>
 </resources>
