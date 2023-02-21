@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import uz.hakimkhon.tester.databinding.ActivityMainBinding
+import uz.hakimkhon.tester.homeworks.HomeWorkTwo
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
         }
         viewBinding.btnLesson2.setOnClickListener {
             val intent = Intent(this, Lesson2::class.java)
+            startActivity(intent)
+        }
+
+        viewBinding.btnHomework2.setOnClickListener {
+            val intent = Intent(this, HomeWorkTwo::class.java)
             startActivity(intent)
         }
     }

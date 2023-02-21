@@ -15,7 +15,7 @@
         android:padding="4dp"
         android:rowCount="2">
 
-<!--            android:id="@+id/imgTrekker"-->
+        <!--            android:id="@+id/imgTrekker"-->
         <ImageView
             android:src="@drawable/img0_trekker"
             android:onClick="onImageSelected"
@@ -24,7 +24,7 @@
             android:tag="0"
             />
 
-<!--            android:id="@+id/imgMalibu"-->
+        <!--            android:id="@+id/imgMalibu"-->
         <ImageView
             android:src="@drawable/img1_malibu"
             android:onClick="onImageSelected"
@@ -33,7 +33,7 @@
             android:tag="1"
             />
 
-<!--            android:id="@+id/imgGentra"-->
+        <!--            android:id="@+id/imgGentra"-->
         <ImageView
             android:src="@drawable/img2_gentra"
             android:onClick="onImageSelected"
@@ -42,7 +42,7 @@
             android:tag="2"
             />
 
-<!--            android:id="@+id/imgCobalt"-->
+        <!--            android:id="@+id/imgCobalt"-->
         <ImageView
             android:src="@drawable/img3_cobalt"
             android:onClick="onImageSelected"
@@ -51,7 +51,7 @@
             android:tag="3"
             />
 
-<!--            android:id="@+id/imgOnix"-->
+        <!--            android:id="@+id/imgOnix"-->
         <ImageView
             android:src="@drawable/img4_onix"
             android:onClick="onImageSelected"
@@ -60,7 +60,7 @@
             android:tag="4"
             />
 
-<!--            android:id="@+id/imgDamas"-->
+        <!--            android:id="@+id/imgDamas"-->
         <ImageView
             android:src="@drawable/img5_damas"
             android:onClick="onImageSelected"
@@ -69,7 +69,7 @@
             android:tag="5"
             />
 
-<!--            android:id="@+id/imgMatiz"-->
+        <!--            android:id="@+id/imgMatiz"-->
         <ImageView
             android:src="@drawable/img6_matiz"
             android:onClick="onImageSelected"
@@ -78,7 +78,7 @@
             android:tag="6"
             />
 
-<!--            android:id="@+id/imgNexia"-->
+        <!--            android:id="@+id/imgNexia"-->
         <ImageView
             android:src="@drawable/img7_nexia"
             android:onClick="onImageSelected"
