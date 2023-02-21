@@ -1,4 +1,4 @@
-package uz.hakimkhon.tester
+package uz.hakimkhon.tester.lessons
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

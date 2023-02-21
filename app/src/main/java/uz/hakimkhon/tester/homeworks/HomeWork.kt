@@ -1,4 +1,4 @@
-package uz.hakimkhon.tester
+package uz.hakimkhon.tester.homeworks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

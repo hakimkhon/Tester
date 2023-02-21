@@ -13,11 +13,11 @@ class HomeWorkTwo : AppCompatActivity() {
         setContentView(R.layout.activity_home_work_two)
     }
 
-    fun onImageSelected(view: View){
-        val image = view as ImageView
-        val tag = image.tag.toString().toInt()
-        val intent = Intent(this, HomeWorkTwoDetail::class.java)
-        intent.putExtra("imgId", tag)
-        startActivity(intent)
-    }
+//    fun onImageSelected(view: View){
+//        val image = view as ImageView
+//        val tag = image.tag.toString().toInt()
+//        val intent = Intent(this, HomeWorkTwoDetail::class.java)
+//        intent.putExtra("imgId", tag)
+//        startActivity(intent)
+//    }
 }

@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import uz.hakimkhon.tester.databinding.ActivityMainBinding
+import uz.hakimkhon.tester.homeworks.HomeWork
 import uz.hakimkhon.tester.homeworks.HomeWorkTwo
+import uz.hakimkhon.tester.lessons.Lesson1
+import uz.hakimkhon.tester.lessons.Lesson2
 
 class MainActivity : AppCompatActivity() {
 

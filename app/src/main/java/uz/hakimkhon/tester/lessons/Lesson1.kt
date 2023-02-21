@@ -1,9 +1,9 @@
-package uz.hakimkhon.tester
+package uz.hakimkhon.tester.lessons
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.viewbinding.ViewBinding
+import uz.hakimkhon.tester.MainActivity
 import uz.hakimkhon.tester.databinding.ActivityLesson1Binding
 
 class Lesson1 : AppCompatActivity() {
