@@ -4,29 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lessons.Lesson2Detail">
+    tools:context=".lessons.lesson_1.LessonOne">
 
-    <ImageView
-        android:id="@+id/imgResult"
-        android:layout_width="415dp"
-        android:layout_height="303dp"
+    <TextView
+        style="@style/styleButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 1"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        />
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/buttonOrtga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="30sp"
+        android:text="Ortga"
+        style="@style/styleButtons"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgResult"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

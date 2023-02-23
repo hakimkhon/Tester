@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -10,39 +10,37 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tester"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".homeworks.HomeWorkTwo"
-            android:exported="false">
-
-        </activity>
-
-        <activity
-            android:name=".lessons.Lesson2Detail"
+            android:name=".lessons.lesson_3.HomeWorkThree"
             android:exported="false" />
         <activity
-            android:name=".lessons.Lesson2"
+            android:name=".lessons.lesson_3.LessonThree"
             android:exported="false" />
         <activity
-            android:name=".homeworks.HomeWork"
+            android:name=".lessons.lesson_2.HomeWorkTwo"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lesson_2.LessonTwoDetail"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lesson_2.LessonTwo"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lesson_1.HomeWorkOne"
             android:exported="false"
             android:theme="@style/Theme.HomeWork" />
         <activity
-            android:name=".homeworks.Homework1"
-            android:exported="false"
-            android:theme="@style/Theme.Homework1" />
-        <activity
-            android:name=".lessons.Lesson1"
+            android:name=".lessons.lesson_1.LessonOne"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

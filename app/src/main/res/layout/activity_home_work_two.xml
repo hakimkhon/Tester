@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".lessons.Lesson2">
+    tools:context=".lessons.lesson_2.LessonTwo">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -87,5 +87,12 @@
             android:tag="7"
             />
     </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="HomeWork 2"
+        />
 
 </LinearLayout>

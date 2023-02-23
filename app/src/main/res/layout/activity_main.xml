@@ -29,6 +29,7 @@
             />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,6 +46,27 @@
         <Button
             android:id="@+id/btnHomework2"
             android:text="Homework 2"
+            style="@style/styleButtons"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLesson3"
+            android:layout_marginHorizontal="8dp"
+            android:text="Lessons 3"
+            style="@style/styleButtons"
+            />
+
+        <Button
+            android:id="@+id/btnHomework3"
+            android:text="Homework 3"
             style="@style/styleButtons"
             />
 

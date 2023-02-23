@@ -1,16 +1,16 @@
-package uz.hakimkhon.tester.lessons
+package uz.hakimkhon.tester.lessons.lesson_2
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
-import uz.hakimkhon.tester.databinding.ActivityLesson2Binding
+import uz.hakimkhon.tester.databinding.ActivityLessonTwoBinding
 
-class Lesson2 : AppCompatActivity() {
-    private lateinit var viewBinding: ActivityLesson2Binding
+class LessonTwo : AppCompatActivity() {
+    private lateinit var viewBinding: ActivityLessonTwoBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        viewBinding = ActivityLesson2Binding.inflate(layoutInflater)
+        viewBinding = ActivityLessonTwoBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(viewBinding.root)
     }
@@ -19,7 +19,7 @@ class Lesson2 : AppCompatActivity() {
         val image = view as ImageView
         val tag = image.tag.toString().toInt()
 
-        val intent = Intent(applicationContext, Lesson2Detail::class.java)
+        val intent = Intent(applicationContext, LessonTwoDetail::class.java)
         val putExtra = intent.putExtra("imageId", tag)
         startActivity(putExtra)
     }

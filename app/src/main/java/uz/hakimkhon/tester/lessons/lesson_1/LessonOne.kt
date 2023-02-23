@@ -1,16 +1,16 @@
-package uz.hakimkhon.tester.lessons
+package uz.hakimkhon.tester.lessons.lesson_1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import uz.hakimkhon.tester.MainActivity
-import uz.hakimkhon.tester.databinding.ActivityLesson1Binding
+import uz.hakimkhon.tester.databinding.ActivityLessonOneBinding
 
-class Lesson1 : AppCompatActivity() {
-    private lateinit var viewBinding: ActivityLesson1Binding
+class LessonOne : AppCompatActivity() {
+    private lateinit var viewBinding: ActivityLessonOneBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewBinding = ActivityLesson1Binding.inflate(layoutInflater)
+        viewBinding = ActivityLessonOneBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
 
         viewBinding.buttonOrtga.setOnClickListener {
